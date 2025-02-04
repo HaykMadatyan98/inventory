@@ -10,9 +10,9 @@ interface Item {
 }
 
 const defaultItems: Item[] = [
-  { id: 1, name: "Item 1", count: 4, src: "../assets/images/1.png" },
-  { id: 2, name: "Item 2", count: 2, src: "../assets/images/2.png" },
-  { id: 3, name: "Item 3", count: 5, src: "../assets/images/3.png" },
+  { id: 1, name: "Item 1", count: 4, src: "../assets/images/1.svg" },
+  { id: 2, name: "Item 2", count: 2, src: "../assets/images/2.svg" },
+  { id: 3, name: "Item 3", count: 5, src: "../assets/images/3.svg" },
   ...Array.from({ length: 22 }, (_, i) => ({
     id: i + 4,
     name: `Item ${i + 4}`,
